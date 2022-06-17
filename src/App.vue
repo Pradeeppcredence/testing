@@ -5,6 +5,8 @@
     <Testing />
     <hr>
     <TestingFile />
+    <hr>
+    <HistoricalData/>
   </div>
 </template>
 
@@ -12,13 +14,15 @@
 import Header from './components/Header.vue'
 import Testing from 'testing-file'
 import TestingFile from 'testing-file1'
+import HistoricalData from './plugins/HistoricalData/HistoricalData.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Testing,
-    TestingFile
+    TestingFile,
+    HistoricalData
 }
 }
 </script>
@@ -30,6 +34,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
